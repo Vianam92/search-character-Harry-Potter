@@ -1,0 +1,85 @@
+@import "./Variables.scss";
+//Gryffindor
+.form-Gryffindor {
+  @include form();
+  border: 5px solid $colorRed;
+  background-color: #d3a625;
+  box-shadow: -2px 3px 10px rgba(30, 224, 175, 0.082);
+  &__label {
+    color: $colorRed;
+    @include label;
+  }
+  &__input {
+    @include input;
+  }
+  &__btn {
+    @include btn;
+    color: $colorRed;
+    &:hover {
+      background: #9b4207;
+    }
+  }
+}
+
+.form-Slytherin {
+  border: 5px solid #1b03033a;
+  box-shadow: -2px 3px 10px rgba(113, 121, 119, 0.363);
+  background-color: #2a623d;
+  @include form;
+  &__label {
+    color: #000000;
+    @include label;
+  }
+  &__input {
+    @include input;
+  }
+  &__btn {
+    @include btn;
+    color: #1a472a;
+    &:hover {
+      background: #56f35e;
+    }
+  }
+}
+
+.form-Ravenclaw {
+  border: 5px solid #0e1a40;
+  box-shadow: -2px 3px 10px #5d5d5d;
+  background-color: #222f5b;
+  @include form;
+  &__label {
+    color: #946b2d;
+    @include label;
+  }
+  &__input {
+    @include input;
+  }
+  &__btn {
+    @include btn;
+    color: #07237e;
+    &:hover {
+      background: #7c93df;
+    }
+  }
+}
+
+.form-Hufflepuff {
+  border: 5px solid #60605c;
+  box-shadow: -2px 3px 10px #cec16c;
+  background-color: #ffed86;
+  @include form;
+  &__label {
+    color: #000000;
+    @include label;
+  }
+  &__input {
+    @include input;
+  }
+  &__btn {
+    @include btn;
+    color: #97870f;
+    &:hover {
+      background: #53441a;
+    }
+  }
+}

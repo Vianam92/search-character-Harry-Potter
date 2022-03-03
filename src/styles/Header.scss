@@ -1,0 +1,38 @@
+.header{
+    //background-color: black;
+    height: 190px;
+    width: 100%;
+    margin-top:40px;
+    @media all and(min-width:768px){
+        top:0;
+        width: auto;
+        position:fixed;
+    }
+    &__btn{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top:0;
+        &--boton{
+        width: 50px;
+        background-color: rgba(5, 75, 69, 0.24);
+        color:rgb(14, 212, 226);
+        padding:5px;
+        
+        }
+    }
+    &__image{
+        width: 100%;
+        &--logo{
+            width: 100%;
+            height:200px;
+            object-fit: contain;
+        }
+    };
+    &__music{
+        color:rgb(43, 3, 3);
+        width: 100px;
+        height: 20px;
+    }
+};

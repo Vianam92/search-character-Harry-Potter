@@ -1,0 +1,157 @@
+//Colors Gryffindor
+$colorRed: #740001;
+$colorBack: #d3a625;
+
+$fontFamily: "Yusei Magic", sans-serif;
+
+@mixin form() {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  align-items: flex-end;
+  width: 100%;
+  @media all and (min-width: 768px) {
+    width: 50%;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+  }
+  @media all and (min-width: 1200px) {
+    width: 25%;
+  }
+}
+@mixin label() {
+  margin-top: 3px;
+  width: 100%;
+  font-family: "magic-school", sans-serif;
+  font-size: 1.1rem;
+  @media all and(min-width:768px){
+    font-size: 1.5rem;
+  }
+}
+@mixin input() {
+  margin-bottom: 3px;
+  height: 30px;
+  font-size: 1rem;
+  width: 100%;
+  outline: none;
+  font-size: 1.1rem;
+  font-family: "Playfair Display", sans-serif;
+}
+@mixin btn {
+  width: 150px;
+  height: 40px;
+  margin: 5px;
+  font-size: 1rem;
+  &:hover {
+    border: none;
+  }
+}
+
+//mixin de List
+@mixin section() {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "dumbendor", sans-serif;
+  @media all and(min-width:1200px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+}
+@mixin list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 300px;
+  margin: 10px;
+  @media all and(min-width:1200px) {
+    width: 350px;
+    height: 400px;
+  }
+}
+@mixin img() {
+  width: 150px;
+  height: 224px;
+  object-fit: cover;
+  @media all and(min-width:1200px) {
+    width: 200px;
+    height: 325px;
+  }
+}
+
+@mixin message() {
+  text-align: center;
+  margin: 50px 50px;
+  font-size: 1.2rem;
+  @media all and (min-width:768px){
+    width: 300px;
+  }
+  @media all and (min-width:1200px){
+    width: 500px;
+  }
+}
+
+//mixin de details
+@mixin sectionDetail() {
+  display: flex;
+  align-items:center;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  height: 100vh;
+  @media all and(min-width:768px){
+  align-items:flex-end;
+  margin-right: 80px;
+  }
+  @media all and(min-width:1200px){
+    align-items:center;
+    margin-right: 0;
+  }
+}
+@mixin title() {
+  text-align: center;
+  margin: 20px 10px 10px 10px;
+  font-family: "Times New Roman", Times, serif;
+  @media all and(min-width:768px){
+    font-size: 2rem;
+  }
+}
+@mixin image() {
+  width: 150px;
+    height: 224px;
+    object-fit: cover;
+    @media all and(min-width:768px){
+      width:200px;
+      height: 300px;
+    }
+};
+@mixin link(){
+  text-align:right;
+    width: 80%;
+    text-decoration: underline;
+    padding:10px;
+    text-decoration: none;
+    @media all and(min-width:768px){
+      font-size: 1.5rem;
+    }
+}
+@mixin house() {
+  margin-top:10px;
+  padding:5px;
+}
+@mixin detail() {
+  margin-top:15px;
+  font-size: 1.5rem;
+  @media all and(min-width:1200px){
+    font-size: 1.8rem;
+  }
+}

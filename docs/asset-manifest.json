@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.8b5758b0.css",
+    "main.js": "./static/js/main.e11a6d61.js",
+    "static/js/845.14d92c2d.chunk.js": "./static/js/845.14d92c2d.chunk.js",
+    "static/media/Harry Potter Theme Song (FULLBULLA.ORG).mp3": "./static/media/Harry Potter Theme Song (FULLBULLA.ORG).2ccac1d2e86c6c364b81.mp3",
+    "static/media/gryffindor.png": "./static/media/gryffindor.5a034baa58eb38d4958c.png",
+    "static/media/huplepuff.png": "./static/media/huplepuff.8bc0c8fec830750df9ea.png",
+    "static/media/slyderin.png": "./static/media/slyderin.d89c32c10209cd4c21e5.png",
+    "static/media/ravenclaw.png": "./static/media/ravenclaw.c1cc42b8fa6ce3c7b3a2.png",
+    "static/media/magic-school.one.ttf": "./static/media/magic-school.one.c61b89ed540755eead51.ttf",
+    "static/media/dum2out.ttf": "./static/media/dum2out.adf93ebdf00b47e5ff4c.ttf",
+    "static/media/harry.jpeg": "./static/media/harry.66503be23c110510e933.jpeg",
+    "static/media/title-logo.png": "./static/media/title-logo.698b9dcf59cd7af00ab0.png",
+    "static/media/pulse.svg": "./static/media/pulse.bdd4c9aadf98ea4eb2f751a953d79b10.svg",
+    "index.html": "./index.html",
+    "main.8b5758b0.css.map": "./static/css/main.8b5758b0.css.map",
+    "main.e11a6d61.js.map": "./static/js/main.e11a6d61.js.map",
+    "845.14d92c2d.chunk.js.map": "./static/js/845.14d92c2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b5758b0.css",
+    "static/js/main.e11a6d61.js"
+  ]
+}

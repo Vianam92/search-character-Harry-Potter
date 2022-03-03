@@ -1,0 +1,105 @@
+@import "./Variables.scss";
+
+.section-character {
+  text-align: center;
+  @media all and(min-width:768px) {
+    width: 50%;
+  }
+  @media all and(min-width:1200px) {
+      width: 70%;
+      margin-right: 20px;
+  }
+}
+
+.section-Gryffindor {
+  @include section;
+  &__list {
+    background-color: rgba(189, 18, 18, 0.877);
+    @include list;
+    &:hover{
+      background-color:#9b4207;
+    }
+    &--img {
+      @include img;
+    }
+    &--h3 {
+      text-align: center;
+      color: #d3a625;
+    }
+    &--text {
+      text-align: center;
+      color: #d3a625;
+    }
+  }
+}
+
+.message {
+  color: red;
+  @include message;
+}
+
+.section-Slytherin {
+  @include section;
+  &__list {
+    background-color: #5d5d5d3a;
+    @include list;
+    &:hover{
+      background-color: #235f375e;
+    }
+    &--img {
+      @include img;
+    }
+    &--h3 {
+      text-align: center;
+      color: #2a623d;
+    }
+    &--text {
+      text-align: center;
+      color: #2a623d;
+    }
+  }
+}
+
+.section-Ravenclaw {
+  @include section;
+  &__list {
+    background-color: #222f5b;
+    @include list;
+    &:hover{
+      background-color: #946b2d6e;
+    }
+    &--img {
+      @include img;
+    }
+    &--h3 {
+      text-align: center;
+      color: #946b2d;
+    }
+    &--text {
+      text-align: center;
+      color: #946b2d;
+    }
+  }
+}
+
+.section-Hufflepuff {
+  @include section;
+  &__list {
+    @include list;
+    background-color: #b1a86d;
+    &:hover{
+      background-color: #ffed86;
+    }
+    &--img {
+      @include img;
+    }
+    &--h3 {
+      text-align: center;
+      color: #38320c;
+    }
+    &--text {
+      text-align: center;
+      color: #2c2708;
+    }
+  }
+}

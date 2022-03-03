@@ -1,0 +1,19 @@
+@import "./Variables.scss";
+
+.section-found{
+    display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  &__link{
+    text-decoration: none;
+    color: red;
+    text-align:right;
+    width: 100%;
+    padding:10px;
+  }
+  &__title{
+    color: red;
+    margin: 5px;
+  }
+}

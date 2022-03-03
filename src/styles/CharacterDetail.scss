@@ -1,0 +1,103 @@
+@import "./Variables.scss";
+
+.section--Gryffindor {
+  @include sectionDetail;
+  &__title {
+    color: rgb(214, 14, 14);
+    @include title;
+  }
+  &__image {
+    @include image;
+  }
+  &__detail {
+    color: rgb(214, 14, 14);
+    @include detail;
+  }
+  &__link {
+    color: rgb(214, 14, 14);
+    @include link;
+  }
+  &__img_house{
+    @include house;
+    width: 100px;
+  }
+};
+
+.section--Slytherin {
+  @include sectionDetail;
+  &__title {
+    color: #2A623D;
+    @include title;
+  }
+  &__image {
+    @include image;
+  }
+  &__detail {
+    color: #2A623D;
+    @include detail;
+  }
+  &__link {
+    @include link;
+    color: #2A623D;
+    
+  }
+  &__img_house{
+    @include house;
+    width: 90px;
+  }
+};
+
+.section--Ravenclaw {
+  @include sectionDetail;
+  &__title {
+    color: #946B2D ;
+    @include title;
+  }
+  &__image {
+   @include image;
+  }
+  &__detail {
+    color: #946B2D ;
+    @include detail;
+  }
+  &__link {
+    color: #946B2D ;
+    @include link;
+  }
+  &__img_house{
+    @include house;
+    width: 100px;
+  }
+};
+
+.section--Hufflepuff {
+  @include sectionDetail;
+  &__title {
+    color: #92873d;
+@include title;
+  }
+  &__image {
+    @include image;
+  }
+  &__detail {
+    color: #92873d;
+    @include detail;
+  }
+  &__link {
+    color:#92873d;
+    @include link;
+  }
+  &__img_house{
+    @include house;
+    width: 85px;
+  }
+};
+
+.small{
+  color:white;
+  font-size: 20px;
+}
+.live{
+  width: 30px;
+  height: 25px;
+}
